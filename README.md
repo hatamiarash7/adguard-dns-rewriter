@@ -39,6 +39,8 @@ make run
 make dry-run
 ```
 
+![Example output](./.github/sc.jpg)
+
 ## Domain list format
 
 One domain per line. Empty lines and lines starting with `#` are ignored.
