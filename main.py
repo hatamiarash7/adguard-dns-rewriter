@@ -140,6 +140,7 @@ def main() -> None:
     cfg = load_config()
 
     domains: set[str] = fetch_domains(cfg["domains_url"])
+    domains = {*domains, *(f"*.{d}" for d in domains if not d.startswith("*."))}
     session = create_session(cfg["adguard_url"], cfg["username"], cfg["password"])
     existing: set[str] = get_existing_domains(
         session,
