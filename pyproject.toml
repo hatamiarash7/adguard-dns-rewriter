@@ -1,0 +1,6 @@
+# Tooling configuration for this repository (it is not an installable package).
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-r a"
