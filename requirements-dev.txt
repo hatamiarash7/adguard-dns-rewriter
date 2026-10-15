@@ -5,5 +5,5 @@ mccabe==0.7.0
 packaging==26.3
 pycodestyle==2.15.0
 pyflakes==4.0.3
-pluggy==1.6.0
+pluggy==1.7.0
 pytest==9.1.1
