@@ -1,5 +1,5 @@
 # Development dependencies (pinned; runtime deps live in requirements.txt)
-flake8==7.4.1
+flake8==7.5.0
 iniconfig==2.3.1
 mccabe==0.7.0
 packaging==26.3
